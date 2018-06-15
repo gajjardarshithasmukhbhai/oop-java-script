@@ -10,3 +10,23 @@ function Person()//When you make the constructor so that time must be defined th
 }
 var der= new Person();//der is the objetct of person constructor
 console.log(der)
+
+//parameterized constructor,loop combination
+let cd=new Darshit("nikunj",21);
+let ed=new Dsee("sunil",22);
+function Darshit(name,num){
+	let a=0;
+       for(i=1;i<=num;i++)
+       {
+           a=a+i
+       }	
+       console.log(`name->${name} age->${num} sum->${a}`)
+}
+function Dsee(name,num) {
+	let a=0
+	for(i=1;i<=num;i++)
+       {
+           a=a+i
+       }	
+       console.log(`name->${name} age->${num} sum->${a}`)
+}
