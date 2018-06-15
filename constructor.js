@@ -30,3 +30,12 @@ function Dsee(name,num) {
        }	
        console.log(`name->${name} age->${num} sum->${a}`)
 }
+//declare the method in constructor
+var de=new Dasr();
+function Dasr() {
+	this.data="gajjar";
+	this.erd=function () {           //method will be define
+		console.log("gajjar")
+	}
+}
+de.erd()//alsways call the function through object
