@@ -12,7 +12,7 @@
   	ex.let a={
 		title:'gajjar'
   	}
-  step 5:then after seprate two variable through (,)
+  step 5:then after seprate two property name through (,)
   	ex.let a={
 		title:'gajajr',
 		father_name:'hasmukhbhai',
@@ -33,3 +33,4 @@ let cd={
 	father_name:'babulal'
 }
 console.log(`hi ${cd.title} ${cd.name} and my fater's name is ${cd.father_name}`);
+
