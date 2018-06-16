@@ -1,27 +1,28 @@
-//***************I Designed the oop java script trello v2 TO do Application**************
-let myTodes={    
+//***************I Designed the trilog pure java script app
+//oop java script trello v2 TO do Application**************
+var myTodes={    
 	name:'darshit',                  //designed the object
 	day:'Monday',
 	meetings:0,
 	meetdone:0,
 } 
-let name=function (todo,name=darshit) {
+var name=function (todo,name=darshit) {
 	todo.name=name;
 }
-let meetings=function (todo/*contain whole class*/,meet=0) {      //default function
-	todo.meetings=todo.meetings+meet;	
+var meetings=function (todo/*contain whole class*/,c1=0) {      //default function
+	todo.meetings=todo.meetings+c1;	
 }
-let meetdone=function (todo,meet=0){
-	todo.meetdone=todo.meeting-meet;
+var meetdone=function (todo,c2=0){
+	todo.meetdone=todo.meetdone-c2;
 }
-let reset_done=function (todo) {
-	todo.meetings=0;
-	todo.meetdone=0;
+var reset_done=function (todo) {
+	todo.meetings=20;
+	todo.meetdone=30;
 }
-let getsummarydone=function (todo) {
-	let meetleft=todo.meetings+todo.meetdone;//some begginer programmer make mistake like (-).so when you put the - so the negative value will be arrive and you put + so the value is perfect possible Ex.5+(-4)
-	let name=todo.name;
-	let day=todo.day;
+var getsummarydone=function (todo) {
+	var meetleft=todo.meetings+todo.meetdone;//some begginer programmer make mistake like (-).so when you put the - so the negative value will be arrive and you put + so the value is perfect possible Ex.5+(-4)
+	var name=todo.name;
+	var day=todo.day;
 	return `hi ${name} and your meeting is left ${meetleft} your day is ${day}`;
 }
 name(myTodes,'nikunj')
