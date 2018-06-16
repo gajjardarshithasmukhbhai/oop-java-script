@@ -38,4 +38,4 @@ function Dasr() {
 		console.log("gajjar")
 	}
 }
-de.erd()//alsways call the function through object
+de.erd()//alsways call the function through object 
