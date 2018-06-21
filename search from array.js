@@ -12,16 +12,27 @@ console.log(ad[ad.indexOf("darshit")])
 //output::           ^
 //-->return the  ----| memory position and then after ad[aray]-->print that
 
- /*console.log(`gajjar darshit`)
- let array=[{ 
- 		title:"searching",
- 		name:"gajjar darshit",
+//searching array
+console.log("gajajr darshit hasmukhbhai")
+let ree=[
+{
+  title:"gajjar",
+  name:"darshit",
+},
+{
+  title:"patel",
+  name:"nikunj",
+},
+{
+  title:"panchal",
+  name:"manhar",
+}]
+let frt=function (mytodo,title) {
+  const ret=mytodo.findIndex(function (rle,pop) {
+    return rle.title.toLowerCase()===title.toLowerCase()
 
- },{
-
- },{
-
- },{
-
- }]
- */
+  })
+  return mytodo[ret]
+}
+let rop=frt(ree,"gajjar")
+console.log(rop)
