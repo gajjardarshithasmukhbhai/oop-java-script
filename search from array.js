@@ -1,5 +1,7 @@
 //object oriented java script searching property
 
+//1)
+
 let a=["Buy bread","watch jurassic movie","startup"]
 console.log(a.indexOf('startup'))
 //output::
@@ -7,10 +9,14 @@ console.log(a.indexOf('startup'))
 
 //find the memory position then after will be print
 
+//2)
+
 let ad=["nikunj","darshit","meet up"]
 console.log(ad[ad.indexOf("darshit")])
 //output::           ^
 //-->return the  ----| memory position and then after ad[aray]-->print that
+
+//3)
 
 //searching array
 console.log("gajajr darshit hasmukhbhai")
